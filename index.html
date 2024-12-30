@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DOJ/GOJ'25</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class="hero">
+        <div class="container">
+            <div class="countdown-container">
+                <div class="countdown-item">
+                    <div class="countdown-value" id="days">00</div>
+                    <div class="countdown-label">Days</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-value" id="hours">00</div>
+                    <div class="countdown-label">Hours</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-value" id="minutes">00</div>
+                    <div class="countdown-label">Minutes</div>
+                </div>
+                <div class="countdown-item">
+                    <div class="countdown-value" id="seconds">00</div>
+                    <div class="countdown-label">Seconds</div>
+                </div>
+            </div>
+            <h1>Dish of JOY</h1>
+            <h1>&</h1>
+            <h1>Gift of JOY</h1>
+            <p><strong><em>'Make a Meaningful Impact!'</em></strong></p>
+            <div class="capsule">
+                <div class="when-content">
+                    <p><strong>Sunday to Sunday,</strong></p>
+                    <p>Jan. 18-25, 2025</p>
+                </div>
+                <div class="vertical-line"></div>
+                <div class="where-content">
+                    <p>All On-Campus Eateries</p>
+                    <p>&</p>
+                    <p>Stationery Shops and Supermarket</p>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section class="about">
+        <div class="container">
+            <h2>JOY OF GIVING WEEK 2025</h2>
+
+            <p>Get ready to dive into a week of pure joy! 🌟</p>
+            <p> Welcome to the Joy of Giving Week, where every act of
+                kindness ripples into a sea of happiness! Join us as volunteers for the spectacular <span
+                    class="highlight">"Dish of Joy"</span> and
+                <span class="highlight">"Gift of Joy"</span> events, and let's spread smiles that last a lifetime!
+            </p>
+        </div>
+        <div class="about-images">
+            <img src="https://via.placeholder.com/300" alt="Image 1" class="about-image">
+            <img src="https://via.placeholder.com/300" alt="Image 2" class="about-image">
+        </div>
+    </section>
+
+    <section class="events">
+        <div class="text-grid">
+            <div class="grid-element">
+                <p>Imagine the joy on a child's face when they receive a surprise gift! Let's make that happen. Join us
+                    as
+                    we set up wish boxes in campus stationary shops. Pick a wish, grab a gift from the store, and fill
+                    those
+                    boxes with the magic of education for the kids in Zari and Lamani.</p>
+                <p>Last year, we brought smiles, and this year, with your help, we plan to make it even more incredible!
+                </p>
+            </div>
+            <div class="grid-element">
+                <p>Foodies, unite! Indulge your love for food while making a difference. Partnering with campus
+                    eateries,
+                    we're turning delicious dishes into contributions for our cause. A portion of profits from your dish
+                    will go towards giving back to society. You'll be the hero spreading the word about these special
+                    dishes
+                    and ensuring the success of our mission.</p>
+                <p>Let's feast for a good cause!</p>
+            </div>
+        </div>
+        <div class="container">
+            <h5>What will you as a volunteers do?</h5>
+            <ul>
+                <li>Set up boxes and make wish chits which will be set up in all the stationery shops in campus.</li>
+                <li>Give away these gifts to lovely kids of Zari & Lamani.</li>
+                <li>Convince the food stalls to donate a portion of the proceeds from certain food items to Nirmaan.
+                </li>
+                <li>Decide which food items will come under Dish of Joy.</li>
+                <li>Create an accountability system for the number of items sold by the stalls.</li>
+                <li>Promote the event through various means to have the greatest impact.</li>
+            </ul>
+        </div>
+    </section>
+
+    <!--<section class="about-section-grid">
+        <div class="about-section">
+            <div class="image-wrapper">
+                <img src="https://via.placeholder.com/100" alt="Description">
+            </div>
+        </div>
+        <div class="about-section">
+            <h4>John Doe</h4>
+            <p><em><i>Event Coordinator: "Leading the way to success!"</i></em></p>
+        </div>
+        <div class="about-section">
+            <div class="image-wrapper">
+                <img src="https://via.placeholder.com/1200x600" alt="Description">
+            </div>
+        </div>
+        <div class="about-section">
+            <h4>John Doe</h4>
+            <p><em><i>Event Coordinator: "Leading the way to success!"</i></em></p>
+        </div>
+    </section>-->
+
+    <section class="contact">
+        <h3>Contact Us</h3>
+        <form id="contact-form" action="submit-form.php" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" class="form-control" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit">Send Message</button>
+        </form>
+        <p>For any queries, feel free to reach out to us!</p>
+        <div class="contact-grid">
+            <div class="socials">
+                <p>Follow Us</p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <p></p>
+                <a href="https://nirmaan.org/nirmaan-goa-chapter" target="nirmaan-goa-website">
+                    <i class="fa fa-globe"></i> Website
+                </a>
+                <p></p>
+                <a href="https://www.instagram.com/nirmaangoa/" target="nirmaan">
+                    <i class="fab fa-instagram"></i> @nirmaangoa
+                </a>
+                <p></p>
+                <a href="https://in.linkedin.com/company/nirmaan-bits-goa-chapter" target="nirmaan-goa">
+                    <i class="fab fa-linkedin"></i> Nirmaan Organization, BITS Pilani Goa Chapter
+                </a>
+            </div>
+            <div class="phone numbers">
+                <p>Give Us a Call</p>
+                <p>Jehan Daftari &emsp; +91-8767844449</p>
+                <p>Komal Apte &emsp; +91-7517846838</p>
+                <p>Aryan Shukla &emsp; +91-7390095441</p>
+            </div>
+            <div class="email addresses">
+                <p>Or Mail Us</p>
+                <p>Jehan Daftari &emsp; f20231258@goa.bits-pilani.ac.in</p>
+                <p>Komal Apte &emsp; f20230028@goa.bits-pilani.ac.in</p> 
+                <p>Aryan Shukla &emsp; f20230672@goa.bits-pilani.ac.in</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="team">
+        <h6>Meet the Team</h6>
+        <div class="team-grid">
+            <div class="team-member">
+                <img src="./assets/jd.jpeg" alt="jd">
+                <h3>Jehan Daftari</h3>
+                <p><em>I just keep talking, and eventually something's funny</em></p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="komal">
+                <h3>Komal Apte</h3>
+                <p>Event Coordinator</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/150" alt="shukla">
+                <h3>Aryan Shukla</h3>
+                <p>Event Coordinator</p>
+            </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 JD. All rights reserved.</p>
+    </footer>
+
+    <script>
+        // Countdown Timer
+        const eventDate = new Date('2025-01-18T00:00:00').getTime();
+
+        const updateCountdown = () => {
+            const now = new Date().getTime();
+            const distance = eventDate - now;
+
+            const days = Math.floor(distance / (1000 * 60 * 60 * 24));
+            const hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+            const minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+            const seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+            document.getElementById('days').innerHTML = String(days).padStart(2, '0') + ':';
+            document.getElementById('hours').innerHTML = String(hours).padStart(2, '0') + ':';
+            document.getElementById('minutes').innerHTML = String(minutes).padStart(2, '0') + ':';
+            document.getElementById('seconds').innerHTML = String(seconds).padStart(2, '0');
+
+            if (distance < 0) {
+                clearInterval(countdownInterval);
+                document.getElementById('days').innerHTML = "00:";
+                document.getElementById('hours').innerHTML = "00:";
+                document.getElementById('minutes').innerHTML = "00:";
+                document.getElementById('seconds').innerHTML = "00";
+            }
+        };
+
+        const countdownInterval = setInterval(updateCountdown, 1000);
+
+        // Contact form submission
+        document.getElementById('contact-form').addEventListener('submit', function (event) {
+            event.preventDefault();
+            alert('Thank you for your message! We will get back to you soon.');
+            this.reset(); // Reset the form fields
+        });
+    </script>
+</body>
+
+</html>

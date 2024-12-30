@@ -1,0 +1,340 @@
+/* CSS Classes for Caudex Font */
+.caudex-regular {
+    font-family: "Caudex", serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.caudex-bold {
+    font-family: "Caudex", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+.caudex-regular-italic {
+    font-family: "Caudex", serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+.caudex-bold-italic {
+    font-family: "Caudex", serif;
+    font-weight: 700;
+    font-style: italic;
+}
+
+body {
+    font-family: 'Caudex', serif;
+    color: #272625;
+    margin: 0;
+    padding: 0;
+}
+
+.hero {
+    background: url('./assets/hero.jpg') no-repeat center center/cover;
+    padding: 100px 0;
+    text-align: center;
+    color: white;
+}
+
+h1{
+    color:#FCF8EB;
+    font-size: 70px;
+    font-weight: 900;
+}
+
+h2 {
+    color: #FCF8EB;
+    font-size: 40px;
+    font-weight: 550;
+}
+
+h3{
+    color: #697247;
+    font-size: 40px;
+    font-weight: 550;
+}
+
+h5{
+    color: #8A4B1C;
+    font-size: 30px;
+    font-weight: 550;
+}
+
+h6{
+    color: #8A4B1C;
+    font-size: 40px;
+    font-weight: 550;
+    text-align: center;
+}
+
+.section-padding {
+    padding: 60px 0;
+}
+
+.highlight {
+    font-weight: bold; /* Change to desired weight, e.g., normal, bold, 600, etc. */
+    font-size: 150%; /* Increase the size of the text */
+}
+
+footer {
+    background: #343a40;
+    color: #ffffff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 2px 0;
+    height: auto;
+}
+
+.about {
+    background: linear-gradient(to bottom, #ac5e17 50%, #FCF8EB 5%); 
+    padding: 3rem !important;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    position: relative; /* Position relative for absolute positioning of images */
+    overflow: hidden; /* Prevent overflow of content */
+}
+
+.about-images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0; /* No gap for shared borders */
+    margin: auto;
+    align-items: center;
+    max-width: 50%;
+}
+
+.about > .container {
+    /* Add your styles here */
+    width: 100%; /* Example: Set the width to 100% */
+    margin: 0 1rem 0 1rem;
+}
+
+
+.events {
+    background-color: #FCF8EB;
+    padding: 3rem !important;
+    text-align: center;
+}
+
+.text-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0; /* No gap for shared borders */
+    margin: 0;
+    align-items: center;
+    margin-top: -50px;
+}
+
+.grid-element{
+    padding: 2rem;
+}
+
+.events .container {
+    /* Add your styles here */
+    width: 100%; /* Example: Set the width to 100% */
+    margin: 0 1rem 0 1rem;
+}
+
+
+.events .container li{
+    justify-self: center;
+}
+
+.countdown {
+    font-size: 3rem;
+    margin-top: 20px;
+    color: #FFD700; /* Gold color for the countdown */
+    text-align: center; /* Center the countdown text */
+}
+
+.countdown-container {
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    font-size: 24px; /* Adjust font size as needed */
+}
+
+.countdown-item {
+    display: flex;
+    flex-direction: column; /* Stack value and label vertically */
+    align-items: center; /* Center items horizontally */
+    margin: 0 10px; /* Add some horizontal spacing */
+}
+
+.countdown-label {
+    font-weight: bold; /* Make labels bold */
+}
+
+.capsule {
+    display: grid;
+    grid-template-columns: 1fr auto 1fr; /* Adjusted to auto for the vertical line */
+    align-items: center;
+    text-align: center;
+    border: 2px solid #FCF8EB;
+    background-color: #FCF8EB;
+    border-radius: 250px; /* Rounded corners */
+    position: relative;
+    width: 60vw; /* Adjust width as needed */
+    padding: 20px; /* Add padding for better spacing */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+    justify-self: center;
+    color: #343a40;
+}
+
+.vertical-line {
+    height: 50px; /* Height of the vertical line */
+    width: 3px; /* Width of the vertical line */
+    background-color: #F4E6D0; /* Gold line */
+    margin: 0; /* Space around the line */
+}
+
+.when-content, .where-content {
+    text-align: center; /* Center text */
+    padding: 0 10px; /* Add horizontal padding for spacing */
+}
+
+.when-content p, .where-content p {
+    margin: 5px 0; /* Add margin for spacing between paragraphs */
+}
+
+.about-section-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 0; /* No gap for shared borders */
+    align-items: center;
+}
+
+.about-section-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0; /* Remove padding from the about-section */
+    
+    box-sizing: border-box;
+    width: 33vw;
+    height: auto;
+}
+
+.about-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0; /* Remove padding from the about-section */
+    box-sizing: border-box;
+    text-align: center;
+    background-color: #FCF8EB;
+    height: 200px;
+}
+
+.about-section .image-wrapper {
+    background-color: #F4E6D0;
+    display: flex; /* Optional: to center the image */
+    justify-content: center; /* Optional: to center the image */
+    align-items: center; /* Optional: to center the image */
+    width: 33vw;
+    height: 200px;
+}
+
+.about-section img {
+    max-width: 100%; /* Ensure the image is responsive */
+    max-height: 100%; /* Ensure the image is responsive */
+}
+
+.contact{
+    background: linear-gradient(to bottom,#FCF8EB 68%, #ac5e17 25%);
+    padding: 3rem ;
+    text-align: center;
+    justify-content: center;
+    margin-top: -6rem;
+}
+
+.form-group {
+    margin-bottom: 15px;
+    width: 35%;
+    height: auto;
+    justify-self: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #555;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    transition: border-color 0.3s;
+}
+
+.form-control:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+/* Button */
+button {
+    padding: 10px;
+    background-color: #697247;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #A0B05A;
+}
+
+.team-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: center;
+}
+
+/* Team Member */
+.team-member {
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items horizontally */
+    justify-content: center; /* Center items vertically */
+    margin: 15px; /* Space between team members */
+    text-align: center; /* Center text */
+}
+
+.team-member img {
+    border-radius: 50%; /* Make images circular */
+    margin-bottom: 10px; /* Space between image and text */
+    width: 150px; /* Set a fixed width */
+    height: 150px; /* Set a fixed height */
+}
+
+.contact p{
+    color: #FCF8EB;
+}
+
+.contact-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    color: #FCF8EB;
+}
+
+.socials a {
+    color: inherit; /* Inherit the color from the parent element */
+    text-decoration: none; /* Remove the underline */
+}
+
+.socials a:hover {
+    text-decoration: underline; /* Optional: Add underline on hover */
+}
