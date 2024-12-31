@@ -104,7 +104,8 @@ footer {
     gap: 0; /* No gap for shared borders */
     margin: auto;
     align-items: center;
-    max-width: 50%;
+    max-width: 50vw;
+    justify-content: center;
 }
 
 .about > .container {
@@ -297,10 +298,15 @@ button:hover {
     background-color: #A0B05A;
 }
 
+.team{
+    max-width: 100vw;
+}
+
 .team-grid{
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     justify-content: center;
+    max-width: 100vw;
 }
 
 /* Team Member */
