@@ -65,11 +65,9 @@
     }
 }
 
-@media screen and (orientation:landscape)
-and (min-device-width: 319px) 
-and (max-device-width: 480px){
+@media screen and (max-device-width: 921px){
     .contact{
-        background-color: #FCF8EB;
+        background: linear-gradient(to bottom,#FCF8EB 54%, #ac5e17 25%);
         padding: 3rem ;
         text-align: center;
         justify-content: center;
