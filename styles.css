@@ -101,11 +101,15 @@ footer {
 .about-images{
     display: grid;
     grid-template-columns: 1fr 1fr;
-    gap: 0; /* No gap for shared borders */
+    gap: 0 !important; /* No gap for shared borders */
     margin: auto;
     align-items: center;
     max-width: 50vw;
     justify-content: center;
+}
+
+.about-images img{
+    max-width:25vw;
 }
 
 .about > .container {
