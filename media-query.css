@@ -28,7 +28,7 @@
     }
 
     .contact{
-        background: linear-gradient(to bottom,#FCF8EB 44%, #ac5e17 25%);
+        background: linear-gradient(to bottom,#FCF8EB 44%, #ac5e17 25%) ! important;
         padding: 3rem ;
         text-align: center;
         justify-content: center;
