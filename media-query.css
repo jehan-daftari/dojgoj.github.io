@@ -25,7 +25,6 @@
 
     .about-images img{
         max-width: 35vw;
-        
     }
 
     .contact{
@@ -65,7 +64,7 @@
     }
 }
 
-@media screen and (max-device-width: 921px){
+@media screen and (max-device-width: 941px){
     .contact{
         background: linear-gradient(to bottom,#FCF8EB 54%, #ac5e17 25%);
         padding: 3rem ;
@@ -73,5 +72,9 @@
         justify-content: center;
         margin-top: -6rem;
         max-width: 100vw;
+    }
+
+    .about-images{
+        justify-content: center;
     }
 }
